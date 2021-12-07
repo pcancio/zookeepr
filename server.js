@@ -1,7 +1,7 @@
 const { animals } = require('./data/animals');
 const express = require('express');
 const app = express();
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 // app.get('/', (req, res) => {
 //     console.log('string');
 //     res.send('<h1>Hi there!</h1>');
