@@ -55,6 +55,7 @@ app.get('/api/animals/:id', (req, res) => {
     }
 });
 
+app.post('api/animals', (req, res) => {});
 
 
 app.listen(PORT, () => {
